@@ -1,3 +1,7 @@
+# Project ignored files and directories
+.idea
+*.xlsx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
