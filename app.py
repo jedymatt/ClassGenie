@@ -2,17 +2,24 @@ import pandas as pd
 import xlwings as xw
 from PySide6.QtGui import QIntValidator
 from PySide6.QtGui import Qt
-from PySide6.QtWidgets import QMainWindow, QApplication, QFileDialog, QListWidgetItem, QDialog, QTableWidgetItem, \
-    QHeaderView, QItemDelegate, QLineEdit
+from PySide6.QtWidgets import QApplication
+from PySide6.QtWidgets import QDialog
+from PySide6.QtWidgets import QFileDialog
+from PySide6.QtWidgets import QHeaderView
+from PySide6.QtWidgets import QItemDelegate
+from PySide6.QtWidgets import QLineEdit
+from PySide6.QtWidgets import QListWidgetItem
+from PySide6.QtWidgets import QMainWindow
+from PySide6.QtWidgets import QTableWidgetItem
 from qt_material import apply_stylesheet
 
 from class_record import ClassSheet
 from class_record import randomizer
+from ui.AboutDialog import Ui_AboutDialog
+from ui.EditGradesDialog import Ui_EditGradesDialog
 from ui.InputGradesDialog import Ui_InputGradesDialog
 from ui.MainWindow import Ui_MainWindow
 from ui.OptionDialog import Ui_OptionDialog
-from ui.EditGradesDialog import Ui_EditGradesDialog
-from ui.AboutDialog import Ui_AboutDialog
 from version import __version__
 
 RANDOMIZER_MAX_LOOP = 100_000
