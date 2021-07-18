@@ -1,0 +1,12 @@
+iterate students:
+    rng_components as [] <= get components rang
+    components as [] <= create component instance from rng_components, assign weight and total highest
+                        score from head components
+
+    create student record instance and assign the components
+
+    append student record from results array
+
+
+
+

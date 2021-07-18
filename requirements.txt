@@ -1,2 +1,4 @@
 pyside6
-openpyxl
+xlwings
+pandas
+qt-material
